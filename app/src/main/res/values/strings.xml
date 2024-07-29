@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GetEmotion</string>
+    <!--    <string name="default_web_client_id">829853495169-rofdnmc674tucb70v5ao3hcpdnlc38fo.apps.googleusercontent.com</string>-->
+    <string name="create_acc_description">
+        Create an account to proceed with participating in the experiment phase of our thesis.
+    </string>
+
+    <string-array name="sexes">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="clipID_description">Kindly enter the last four digits of the clip you just watched (e.g., \'ACCEDE0 <b>1234</b>\'). </string>
+    <string name="rate_description">Kindly rate how confident you are with this interaction. </string>
+</resources>

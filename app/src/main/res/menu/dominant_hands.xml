@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/left_hand" android:title="Left"/>
+    <item android:id="@+id/right_hand" android:title="Right"/>
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/little_finger" android:title="Little"/>
+    <item android:id="@+id/ring_finger" android:title="Ring"/>
+    <item android:id="@+id/middle_finger" android:title="Middle"/>
+    <item android:id="@+id/index_finger" android:title="Index"/>
+    <item android:id="@+id/thumb_finger" android:title="Thumb"/>
+</menu>

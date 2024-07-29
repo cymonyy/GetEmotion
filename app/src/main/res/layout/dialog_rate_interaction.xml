@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#3D3B3B"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="@string/clipID_description"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/signin"
+                app:cardCornerRadius="15dp"
+                app:contentPaddingBottom="15dp"
+                app:contentPaddingLeft="20dp"
+                app:contentPaddingRight="25dp"
+                app:contentPaddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Clip ID"
+                        android:textColor="@color/fill_label"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_clip_prefix"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/lato_bold"
+                            android:gravity="left"
+                            android:text="ACCEDE0"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_clipID"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:ems="10"
+                            android:fontFamily="@font/lato_bold"
+                            android:gravity="end"
+                            android:hint="0000"
+                            android:inputType="number|numberDecimal"
+                            android:letterSpacing="0.2"
+                            android:maxLength="4"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/fill_label"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/lato"
+                android:gravity="center_horizontal"
+                android:letterSpacing="0.1"
+                android:text="@string/rate_description"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <RatingBar
+                android:id="@+id/rb_rate_confidence"
+                style="@style/Widget.AppCompat.RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:indeterminate="false"
+                android:max="5"
+                android:min="0"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/star_nonfilled"
+                android:progressTint="@color/star_filled"
+                android:stepSize="1" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="20dp"
+                android:translationZ="1dp"
+                app:cardCornerRadius="20dp"
+
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <Button
+                    android:id="@+id/btn_confirm_interaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="@color/fill_label"
+
+                    android:enabled="false"
+                    android:fontFamily="@font/lato_bold"
+                    android:letterSpacing="0.1"
+                    android:padding="0dp"
+                    android:text="CONFIRM"
+                    android:textColor="@color/recycler_item_interaction"
+                    android:textSize="16sp"
+                    app:backgroundTint="@null" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
