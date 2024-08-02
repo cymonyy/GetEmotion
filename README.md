@@ -29,11 +29,11 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 
 ### Account Creation
 
-#### Go to [Firebase Console](https://console.firebase.google.com/) and create an account.
+Go to [Firebase Console](https://console.firebase.google.com/) and create an account.
 
 ![image](https://github.com/user-attachments/assets/32f75d39-cd47-4829-99bc-398b4190e239)
 
-#### Create a Project
+### Create a Project
 
 1. Click create a project.
 
@@ -49,7 +49,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 ![image](https://github.com/user-attachments/assets/c3cb053e-345f-4b9f-91a5-669469ce6129)
 
 
-#### Connect GetEmotion application to Firebase through a series of instructions in the screenshots below:
+### Connect GetEmotion application to Firebase through a series of instructions in the screenshots below:
 
 1. Click the Android icon as shown.
    
@@ -69,7 +69,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 ![image](https://github.com/user-attachments/assets/a365fc7f-cfc9-44c6-bbbf-472d651f65ec)
 
 
-#### Configure Firebase Firestore through these instructions:
+### Configure Firebase Firestore through these instructions:
 
 1. Find the **Firestore Database**.
    
@@ -108,8 +108,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 ![image](https://github.com/user-attachments/assets/56cf2535-165b-4b17-be48-ec6fcc850bf0)
 
 
-
-#### Configure Firebase Authentication by following these steps:
+### Configure Firebase Authentication by following these steps:
 
 1. Find the **Authentication**.
 
@@ -124,7 +123,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 ![image](https://github.com/user-attachments/assets/6a8e8d95-3c1e-4eee-b505-017c40b02f2d)
 
 
-### Running the Program
+### Completing the Program
 
 #### Move **google-services.json** to your module (app-level) root directory
 
@@ -133,7 +132,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 
 ![image](https://github.com/user-attachments/assets/7461f621-7c19-4db1-8f75-1720633bad88)
 
-#### Connect your device to Android Studio
+### Connect your device to Android Studio
 
 1. Find the **Device Manager** button at the top of the Android Studio IDE. It can also be found on the right side of Android Studio.
 2. Click **Pair Devices Using WiFi** to pair your device wireless.
@@ -147,7 +146,7 @@ GetEmotion highly depends on using Firebase Firestore and Authentication for its
 
 ***Note:*** You can also connect your device using a connector wire by enabling **USB Debugging** under the Developer Options.
 
-### Running the Application
+## Running the Application
 
 To run the GetEmotion application, click the **Run** button at the top of the Android Studio IDE or go to the **Run** tab. 
 
